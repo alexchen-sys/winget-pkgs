@@ -5,8 +5,8 @@ PackageIdentifier: HP.HPSupportAssistant
 PackageVersion: 9.54.3.0
 InstallerType: exe
 InstallerSwitches:
-  Silent: /s
-  SilentWithProgress: /s
+  Silent: /s /a /s
+  SilentWithProgress: /s /a /s
 Installers:
 - Architecture: x64
   InstallerUrl: https://ftp.hp.com/pub/softpaq/sp173501-174000/sp173774.exe
